@@ -1,0 +1,21 @@
+Git repository stores the project files and revision history and fecilitate the version control changes made over time .it can be accessed via localand online using github portal.
+using git commit ,push and diffrent commands we will be using the git repo 
+
+git init-1st command to run in a new project 
+it is used in creating new repo
+used in intital setup of repo
+to create new .git   subdirectory in current working directory 
+to create new main branch 
+
+git init < project director >
+
+git init --bare=used to create remote central repo
+
+Git Clone-
+
+it is used to copy the repo /clone the remote repo 
+git clone and git init used for "initialize new git repository"
+git clone is depend on Git init 
+
+git init<>
+Git Clone 
