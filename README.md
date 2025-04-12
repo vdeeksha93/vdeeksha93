@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @vdeeksha93
 - 👀 I’m interested in learning intresting topics 
-- 🌱 I’m currently learning github 
+- 🌱 I’m currently learning github and working on AWS certification
 
 
 
