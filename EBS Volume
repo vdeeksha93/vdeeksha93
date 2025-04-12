@@ -1,0 +1,22 @@
+Elastic Block Store volume: 
+network drive are attached at run time 
+Persist even after termination 
+act as Network usb drive
+attached one instence at CCP -1 at a time (1 EC2 can have 1/more EBS,But not EBC)
+bounded with Availabality zone
+
+Charecters:
+Network connection:some letency and switchig to diffrnet instance is easy 
+Az:if cutomers are at same AZ we can switch easily,
+if customer at diffrent AZ than we need to create snapsshot and pass
+
+
+Snapshot :Can copy snapshot in AZ and region 
+Backup
+AZ1                                          AZ2
+EC21(EBS)--------------Snapshot--------------EC22(EBS)
+        snapshot                 Restore
+
+EBS Featur:
+EBS snapchat archive-move to archive -75%cheeper-24 to72 hr restore
+Recycle bin EBS Snapshot--retain after delete 1 day to 1year
